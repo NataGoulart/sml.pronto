@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+    background: #010107;
+}
+.box1{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+    position: relative;
+    top: -120px;
+    left: auto;
+}
+
+.box2{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+    position: relative;
+    top: -105px;
+    left: auto;
+}
+
+.box3{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+    position: relative;
+    top: -120px;
+    left: auto;
+}
+
+.box4{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+    position: relative;
+    top: -120px;
+    left: auto;
+}
+
+.box1:hover{
+    width: 220px;
+    background: #c32aa3;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 100px #b315917c;
+}
+.box2:hover{
+    width: 280px;
+    background: #25d366;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 100px #b315917c;
+}
+.box3:hover{
+    width: 220px;
+    background: #1877f2;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 100px #b315917c;
+}
+
+.box4:hover{
+    width: 220px;
+    background: #1da1f2;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 100px #b315917c;
+}
+.navbar p{
+    transform: translate(60px);
+
+}
+.box1 .icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.box2 .icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.box3 .icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.box4 .icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.instagram{
+    background-color: #c32aa3;
+}
+.whatsapp{
+    background-color: #25d366;
+}
+.facebook{
+    background-color: #1877f2;
+}
+.twitter{
+    background-color: #1da1f2;
+}
+
+.box1:hover .icon{
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
+
+.box2:hover .icon{
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
+
+.box3:hover .icon{
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
+
+.box4:hover .icon{
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
